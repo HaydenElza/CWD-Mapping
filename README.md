@@ -17,7 +17,7 @@ Node ID schema:
 
 Example: if there are three forks from one node, there will be NodeIDs of 10, 11, 12. The first character 1 refers to the parent node. The second characters 0, 1, and 2 refer to the first, second, and third forks coming from the parent node 1.
 
-![](/screenshots/mapping_examples.png?raw=true)
+![](/screenshots/label_examples.png?raw=true)
 
 Example ID: <span style="color: red;">0693112</span>
 
@@ -38,3 +38,16 @@ Example: 0693112_1 or 0963112_2 for reshoot 1 and 2 respectively
 Input | Output
 :---: | :----:
 ![](/screenshots/points.png?raw=true) | ![](/screenshots/lines.png?raw=true)
+
+---
+
+### Test Data
+
+Test data are included to familiarize yourself with the tool.
+
+Descriptions:
+1. Normal
+2. Contains re-shoots
+3. Contains multiple re-shoots per log
+4. Contains duplicate IDs (will return error)
+5. Contains ID with invalid characters (will return error)
