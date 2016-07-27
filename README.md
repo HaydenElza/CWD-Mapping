@@ -46,6 +46,7 @@ Input | Output
 Test data are included to familiarize yourself with the tool.
 
 Descriptions:
+
 1. Normal
 2. Contains re-shoots
 3. Contains multiple re-shoots per log
